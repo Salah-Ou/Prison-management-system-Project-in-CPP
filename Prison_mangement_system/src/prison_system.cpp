@@ -397,10 +397,10 @@ class Prison {
                     gotoxy(42,5);
                     cout << RED << "Prisoner not found.\n";
                 }
+                gotoxy(39,7);
+                cout << WHITE << "Press any key to Continue... ";
+                _getch();
             }
-            gotoxy(39,7);
-            cout << WHITE << "Press any key to Continue... ";
-            _getch();
         }
 
         void prison_file() {
